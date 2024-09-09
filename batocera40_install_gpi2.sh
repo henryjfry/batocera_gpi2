@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/RetroFlag/GPiCase2-Script/main
+SourcePath=https://raw.githubusercontent.com/henryjfry/batocera_gpi2/main/
 
 #-----------------------------------------------------------
 sleep 2s
