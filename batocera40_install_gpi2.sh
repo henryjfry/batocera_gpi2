@@ -11,7 +11,7 @@ mount -o remount, rw /
 #Download Python script-----------------------------
 mkdir /userdata/RetroFlag
 sleep 2s
-script=/userdata/RetroFlag/SafeShutdown.py
+script=/userdata/RetroFlag/SafeShutdown_lcd_dock.py
 
 wget -O  $script "$SourcePath/batocera40_SafeShutdown_gpi2.py"
 #-----------------------------------------------------------
