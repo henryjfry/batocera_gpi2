@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://henryjfry.github.io/batocera_gpi2/
+SourcePath=https://raw.githubusercontent.com/henryjfry/batocera_gpi2/main/
 
 #-----------------------------------------------------------
 sleep 2s
@@ -20,17 +20,17 @@ sleep 2s
 DIR=/userdata/system/custom.sh
 
 if grep -q "python $script &" "$DIR";
-	then
-		if [ -x "$DIR" ];
-			then 
-				echo "Executable script already configured. Doing nothing."
-			else
-				chmod +x $DIR
-		fi
-	else
-		echo "python $script &" >> $DIR
-		chmod +x $DIR
-		echo "Executable script configured."
+        then
+                if [ -x "$DIR" ];
+                        then
+                                echo "Executable script already configured. Doing nothing."
+                        else
+                                chmod +x $DIR
+                fi
+        else
+                echo "python $script &" >> $DIR
+                chmod +x $DIR
+                echo "Executable script configured."
 fi
 #-----------------------------------------------------------
 
