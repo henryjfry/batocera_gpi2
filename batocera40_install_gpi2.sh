@@ -1,10 +1,8 @@
 #!/bin/bash
 
 SourcePath=https://henryjfry.github.io/batocera_gpi2/
-
 #-----------------------------------------------------------
 sleep 2s
-
 mount -o remount, rw /boot
 mount -o remount, rw /
 
