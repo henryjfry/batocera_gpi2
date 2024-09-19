@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/henryjfry/batocera_gpi2/main/
+SourcePath=https://henryjfry.github.io/batocera_gpi2/
 
 #-----------------------------------------------------------
 sleep 2s
