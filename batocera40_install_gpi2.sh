@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 SourcePath=https://henryjfry.github.io/batocera_gpi2/
 #-----------------------------------------------------------
