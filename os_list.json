@@ -37,6 +37,7 @@
             "partitions_info": "https://pinn.mjh.nz/partitions.json?p=libreelec_rpi4&s=2581",
             "release_date": "2024-04-25",
             "supported_models": [
+                "Pi Compute Module 4",
                 "Pi 4"
             ],
             "tarballs": [
