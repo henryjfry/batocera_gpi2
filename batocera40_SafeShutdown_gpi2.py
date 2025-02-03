@@ -42,7 +42,8 @@ def poweroff():
                         time.sleep(0.5)
                 os.system("batocera-es-swissknife --emukill")
                 time.sleep(1)
-                os.system("shutdown -h now")
+                #os.system("shutdown -h now")
+                os.system("poweroff")
 
 
 def lcdrun_first():
